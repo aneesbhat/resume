@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anees Irshad Bhat - AI-Styled Resume</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <style>
+    body {
+      background: linear-gradient(135deg, #f0f4f8, #fefefe);
+    }
+  </style>
+</head>
+<body class="font-sans">
+  <div class="max-w-6xl mx-auto p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!-- Left Panel -->
+    <div class="bg-[#0F172A] text-white p-6 rounded-lg space-y-6 shadow-xl">
+      <div class="text-center">
+        <img src="https://i.pravatar.cc/150?img=12" alt="Profile Photo" class="w-24 h-24 rounded-full mx-auto border-4 border-white transform -scale-x-100">
+        <h1 class="text-2xl font-bold mt-4">Anees Irshad Bhat</h1>
+        <p class="text-[#14B8A6]">Full Stack Developer</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold border-b border-gray-600 pb-1 mb-2">Profile</h2>
+        <p class="text-sm text-gray-300">Multi-skilled professional with experience in development, marketing, and travel management. Driven by creativity and innovation.</p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold border-b border-gray-600 pb-1 mb-2">Contact</h2>
+        <ul class="text-sm space-y-1">
+          <li>📞 +91 88992 57845</li>
+          <li>📧 anees@example.com</li>
+          <li>📍 Humhama, New Airport Road, Srinagar</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold border-b border-gray-600 pb-1 mb-2">Personal Skills</h2>
+        <ul class="space-y-2">
+          <li class="flex justify-between text-sm">Innovative 
+            <span class="w-1/2 bg-white h-2 rounded overflow-hidden">
+              <span class="bg-[#14B8A6] block h-full bar" data-width="90%" style="width: 0%;"></span>
+            </span>
+          </li>
+          <li class="flex justify-between text-sm">Creative 
+            <span class="w-1/2 bg-white h-2 rounded overflow-hidden">
+              <span class="bg-[#14B8A6] block h-full bar" data-width="85%" style="width: 0%;"></span>
+            </span>
+          </li>
+          <li class="flex justify-between text-sm">Teamwork 
+            <span class="w-1/2 bg-white h-2 rounded overflow-hidden">
+              <span class="bg-[#14B8A6] block h-full bar" data-width="88%" style="width: 0%;"></span>
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold border-b border-gray-600 pb-1 mb-2">Connect</h2>
+        <ul class="text-sm space-y-1">
+          <li>linkedin.com/in/aneesbhat</li>
+          <li>github.com/aneesbhat</li>
+          <li>behance.net/aneesbhat</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Right Panel -->
+    <div class="md:col-span-2 space-y-6">
+      <section class="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#14B8A6]">
+        <h2 class="text-xl font-semibold text-gray-800 mb-4">Work Experience</h2>
+        <ul class="space-y-3 text-gray-700 text-sm">
+          <li><strong>Digital Marketing Executive</strong> – Jolly Holidays (2019–Present)</li>
+          <li><strong>Reservation Manager</strong> – Cross Hill Vacations (2016–2019)</li>
+          <li><strong>Sales Executive</strong> – Hotel XYZ (2014–2016)</li>
+        </ul>
+      </section>
+
+      <section class="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#2563EB]">
+        <h2 class="text-xl font-semibold text-gray-800 mb-4">Professional Skills</h2>
+        <div class="grid grid-cols-2 gap-4">
+          <div><strong>Branding</strong>
+            <div class="bg-gray-200 h-2 rounded-full mt-1">
+              <div class="bg-[#2563EB] h-2 rounded-full bar" data-width="90%" style="width: 0%;"></div>
+            </div>
+          </div>
+          <div><strong>Web Programming</strong>
+            <div class="bg-gray-200 h-2 rounded-full mt-1">
+              <div class="bg-[#2563EB] h-2 rounded-full bar" data-width="85%" style="width: 0%;"></div>
+            </div>
+          </div>
+          <div><strong>Graphic Design</strong>
+            <div class="bg-gray-200 h-2 rounded-full mt-1">
+              <div class="bg-[#2563EB] h-2 rounded-full bar" data-width="80%" style="width: 0%;"></div>
+            </div>
+          </div>
+          <div><strong>SEO</strong>
+            <div class="bg-gray-200 h-2 rounded-full mt-1">
+              <div class="bg-[#2563EB] h-2 rounded-full bar" data-width="75%" style="width: 0%;"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#F59E0B]">
+        <h2 class="text-xl font-semibold text-gray-800 mb-4">Education</h2>
+        <ul class="text-sm text-gray-700 space-y-2">
+          <li><strong>B.Com</strong> – Kashmir University (2016–2019)</li>
+          <li><strong>12th</strong> – JKBOSE (2014)</li>
+        </ul>
+      </section>
+
+      <section class="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#10B981]">
+        <h2 class="text-xl font-semibold text-gray-800 mb-4">Proficiency</h2>
+        <div class="grid grid-cols-2 gap-4 text-sm">
+          <div>HTML
+            <div class="w-full bg-gray-200 h-2 rounded-full mt-1">
+              <div class="bg-[#10B981] h-2 rounded-full bar" data-width="95%" style="width: 0%;"></div>
+            </div>
+          </div>
+          <div>CSS
+            <div class="w-full bg-gray-200 h-2 rounded-full mt-1">
+              <div class="bg-[#10B981] h-2 rounded-full bar" data-width="90%" style="width: 0%;"></div>
+            </div>
+          </div>
+          <div>JavaScript
+            <div class="w-full bg-gray-200 h-2 rounded-full mt-1">
+              <div class="bg-[#10B981] h-2 rounded-full bar" data-width="85%" style="width: 0%;"></div>
+            </div>
+          </div>
+          <div>React
+            <div class="w-full bg-gray-200 h-2 rounded-full mt-1">
+              <div class="bg-[#10B981] h-2 rounded-full bar" data-width="80%" style="width: 0%;"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-white p-6 rounded-lg shadow-md text-sm text-gray-700 border-l-4 border-[#A855F7]">
+        <h2 class="text-lg font-semibold text-gray-800 mb-2">Declaration</h2>
+        <p>I hereby declare that the above information is true and correct to the best of my knowledge and belief.</p>
+      </section>
+
+      <div class="text-right">
+        <p class="font-semibold">Anees Irshad Bhat</p>
+        <audio autoplay loop>
+            <source type="audio/mp3" src="Audio/Nomi XD - BLAH! ( Slowed ) - Official Audio.mp3"/>
+        </audio>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Animate each section fade + slide in
+    gsap.utils.toArray("section").forEach(section => {
+      gsap.from(section, {
+        scrollTrigger: {
+          trigger: section,
+          start: "top 80%",
+          toggleActions: "play none none none"
+        },
+        y: 50,
+        opacity: 0,
+        duration: 1,
+        ease: "power2.out"
+      });
+    });
+
+    // Animate name
+    gsap.from("h1", {
+      scrollTrigger: {
+        trigger: "h1",
+        start: "top 90%",
+        toggleActions: "play none none none"
+      },
+      y: -40,
+      opacity: 0,
+      duration: 1.2,
+      ease: "expo.out"
+    });
+
+    // Animate image flip
+    gsap.from("img", {
+      scrollTrigger: {
+        trigger: "img",
+        start: "top 90%",
+        toggleActions: "play none none none"
+      },
+      rotateY: 180,
+      opacity: 0,
+      duration: 1.5,
+      ease: "back.out(1.7)"
+    });
+
+    // Animate progress bars
+    gsap.utils.toArray('.bar').forEach(bar => {
+      const targetWidth = bar.getAttribute('data-width');
+      gsap.to(bar, {
+        scrollTrigger: {
+          trigger: bar,
+          start: 'top 90%',
+          toggleActions: 'play none none none'
+        },
+        width: targetWidth,
+        duration: 1.4,
+        ease: 'power2.out'
+      });
+    });
+  </script>
+</body>
+</html>
